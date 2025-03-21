@@ -17,3 +17,13 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button:hover{
+  animation: grow ease-in-out .3s 1 normal forwards;
+}
+
+@keyframes grow {
+  100%{
+    transform: scale(1.2);
+  }
+}

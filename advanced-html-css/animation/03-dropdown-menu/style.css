@@ -29,4 +29,18 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+.visible{
+  animation: open 1s linear 1 alternate forwards;
+  transform-origin: top;
+}
+
+@keyframes open {
+  0%{
+    transform: scaleY(0);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
 
